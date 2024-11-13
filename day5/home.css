@@ -1,0 +1,44 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+.grid-container{
+    display:grid;
+    grid-template-columns: 20% 50% 30%;
+}
+.grid-items{
+    border: 10px solid rgb(6, 67, 67);
+
+
+}
+.navbar,.footer,.image,.COPYRIGHT{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align:center;
+}
+ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color: rgb(172, 131, 81);
+}
+li{
+    float:left;
+}
+li a{
+    display: block;
+    color:white;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration: none;
+
+}
+ li a:hover{
+    background-color: black ;
+}
+.about{
+
+}
+
